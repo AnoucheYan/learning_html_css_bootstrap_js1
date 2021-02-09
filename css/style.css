@@ -1,0 +1,98 @@
+header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.mainContent{
+    color: #b9c0c6;
+    border-bottom: 1px solid #b9c0c6;
+    z-index: -1;
+}
+
+.sloganSection{
+    background-image: url("../img/Photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1300px;
+    color: #465065;
+}
+
+.navbar-brand, .navbar{
+    padding: 0;
+}
+
+.myRed{
+    color: #fa5c65;
+    font-weight: bold;
+}
+
+.myGrey{
+    color: #b9c0c6;
+}
+
+.headings {
+    color: #465065;
+    min-height: 50px;
+}
+
+.headings1{
+    color: #465065;
+    font-weight: bold;
+}
+
+.headings:after{
+    content: "";
+    height: 5px;
+    width: 5px;
+    background-color: #fa5c65;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.readMoreButton{
+    background-color: #fa5c65;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    margin: 10px 0;
+}
+
+.readMoreButton:focus{
+    outline: none;
+}
+
+.readMoreButton:hover{
+    text-decoration: underline;
+}
+
+.moreButton{
+    color: #fa5c65;
+    border: none;
+    background: none;
+    font-weight: bold;
+}
+
+.moreButton:focus{
+    outline: none;
+}
+
+.moreButton:hover{
+    text-decoration: underline;
+}
+
+
+.minHeight{
+    min-height: 75px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical; 
+}
+
+.socialMedia{
+    display: inline-block;
+    margin-right: 10px;
+}
